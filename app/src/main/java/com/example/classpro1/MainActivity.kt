@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                 result = Integer.parseInt(num1) % Integer.parseInt(num2)
                 TextResult.text = "계산결과: " + result.toString()
             }
+
         }
     }
     fun checkInput() : Boolean {
